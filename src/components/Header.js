@@ -39,6 +39,8 @@ function Header() {
                 <div className="relative link flex items-center">
                 {/* <ShoppingCartIcon h-10 /> */}
                 {/* added svg cos "flex wasnt working on shoppingcart" */}
+
+                <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 text-center text-xs rounded-full text-black font-bold">0</span>
                 <svg class="h-10 w-10 "> <ShoppingCartIcon h-10 /> </svg> 
                 <p className="hidden md:inline font-extrabold md:text-sm mt-2">Basket</p>
                 </div>
